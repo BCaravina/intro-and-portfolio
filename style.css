@@ -54,22 +54,22 @@ p {
   text-transform: capitalize;
 }
 
-.contact-link {
+.contact-button {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
 
-.contact-link:hover {
+.contact-button:hover {
   color: white;
 }
 
-.about-link {
+.about-button {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
 
-.about-link:hover {
+.about-button:hover {
   color: var(--primary-color);
 }
 
@@ -117,15 +117,20 @@ p {
   margin: 10px;
 }
 
-.email-link {
+.contact-links {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  gap: 30px;
   font-size: 28px;
+}
+
+.send-mail-link,
+.github-profile-link {
+  color: var(--primary-color);
   text-decoration: none;
 }
 
-.email-link:hover {
+.contact-links:hover {
   text-decoration: underline;
 }
 
@@ -143,7 +148,7 @@ p {
     font-size: 13px;
   }
 
-  .email-link,
+  .contact-links,
   .brand-name,
   h3,
   .card-text {
