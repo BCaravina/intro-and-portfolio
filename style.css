@@ -40,6 +40,10 @@ p {
   text-align: center;
 }
 
+.navbar {
+  margin-bottom: 100px;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -149,6 +153,10 @@ p {
 
   p {
     font-size: 13px;
+  }
+
+  .navbar {
+    margin-bottom: 50px;
   }
 
   .contact-links,
