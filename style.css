@@ -106,15 +106,16 @@ p {
   color: white;
 }
 
-.about-paragraphs {
+.text-paragraphs {
   display: flex;
   justify-content: center;
   margin: 30px 40px;
 }
 
-.about-paragraphs p {
+.text-paragraphs p {
   background: var(--secondary-color);
   margin: 10px;
+  line-height: 2;
 }
 
 .contact-links {
