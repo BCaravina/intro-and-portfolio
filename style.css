@@ -1,6 +1,7 @@
 :root {
   --primary-color: #1a4870df;
-  --secondary-color: #5b99c284;
+  --secondary-color: rgba(91, 153, 194, 0.6);
+  /* --secondary-color: #5b99c284; */
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-font: "Merriweather", serif;
 }
@@ -38,6 +39,13 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+}
+
+.navbar {
+  margin-bottom: 100px;
+  background-color: var(--secondary-color) !important;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .navigation-links {
@@ -165,6 +173,8 @@ p {
   .navbar {
     margin-bottom: 50px;
     background-color: var(--secondary-color) !important;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(10px);
   }
 
   .contact-links,
