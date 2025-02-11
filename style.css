@@ -182,7 +182,7 @@ p {
     text-align: center;
   }
 
-  .card {
+  .card-container {
     box-shadow: var(--box-shadow);
     padding-bottom: 20px;
   }
