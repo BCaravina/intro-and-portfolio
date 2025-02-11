@@ -40,10 +40,6 @@ p {
   text-align: center;
 }
 
-.navbar {
-  margin-bottom: 100px;
-}
-
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -125,8 +121,9 @@ p {
 .contact-links {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 10px;
   font-size: 28px;
+  color: var(--primary-color);
 }
 
 .send-mail-link,
@@ -136,15 +133,15 @@ p {
 }
 
 .contact-links:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   color: var(--primary-color);
-  /* text-decoration: underline; */
 }
 
 .prog-languages {
   font-size: 16px;
   padding: 0;
   margin: 0 0 0 5px;
+  font-style: italic;
 }
 
 @media (max-width: 576px) {
@@ -167,6 +164,7 @@ p {
 
   .navbar {
     margin-bottom: 50px;
+    background-color: var(--secondary-color) !important;
   }
 
   .contact-links,
