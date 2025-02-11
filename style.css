@@ -141,6 +141,12 @@ p {
   /* text-decoration: underline; */
 }
 
+.prog-languages {
+  font-size: 16px;
+  padding: 0;
+  margin: 0 0 0 5px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 52px;
@@ -155,6 +161,10 @@ p {
     font-size: 13px;
   }
 
+  .prog-languages {
+    font-size: 11px;
+  }
+
   .navbar {
     margin-bottom: 50px;
   }
@@ -167,7 +177,8 @@ p {
   }
 
   .card-text,
-  .card-title {
+  .card-title,
+  .prog-languages {
     text-align: center;
   }
 
