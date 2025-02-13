@@ -126,22 +126,29 @@ p {
   line-height: 2;
 }
 
+.contact-info {
+  background-color: var(--secondary-color);
+  border-radius: 6px;
+  padding: 20px 0;
+  margin: 30px 150px;
+  line-height: 2;
+  box-shadow: var(--box-shadow);
+}
+
+.work-button {
+  padding: 13px 30px;
+  font-size: 18px;
+  color: white;
+  background: var(--primary-color);
+  border: none;
+  border-radius: 6px;
+}
+
 .contact-links {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  font-size: 28px;
-  color: var(--primary-color);
-}
-
-.send-mail-link,
-.github-profile-link {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-.contact-links:hover {
-  transform: scale(1.1);
+  gap: 40px;
+  font-size: 30px;
   color: var(--primary-color);
 }
 
@@ -157,17 +164,45 @@ p {
     font-size: 52px;
   }
 
-  h2,
+  h2 {
+    font-size: 26px;
+    margin: 0;
+    text-align: center;
+  }
+
   .card-title {
     font-size: 26px;
   }
 
   p {
     font-size: 13px;
+    text-align: center;
   }
 
   .prog-languages {
     font-size: 11px;
+  }
+
+  .contact-info {
+    margin: 30px 100px;
+  }
+
+  .contact-title {
+    margin-left: 0 !important;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .contact-paragraph {
+    margin: 0 !important;
+    font-size: 18px;
+  }
+
+  .work-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    justify-content: center !important;
   }
 
   .navbar {
@@ -179,7 +214,6 @@ p {
 
   .contact-links,
   .brand-name,
-  h3,
   .card-text {
     font-size: 16px;
   }
