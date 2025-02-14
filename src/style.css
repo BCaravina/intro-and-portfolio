@@ -151,6 +151,12 @@ p {
   background: var(--primary-color);
   border: none;
   border-radius: 6px;
+  text-decoration: none !important;
+  box-shadow: var(--box-shadow);
+}
+
+.work-button:hover {
+  color: white;
 }
 
 .contact-links {
@@ -224,6 +230,12 @@ p {
     padding: 10px 20px;
     font-size: 14px;
     justify-content: center !important;
+    text-decoration: none !important;
+    box-shadow: var(--box-shadow);
+  }
+
+  .work-button:hover {
+    color: white;
   }
 
   .navbar {
