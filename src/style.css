@@ -123,15 +123,17 @@ p {
 }
 
 .text-paragraphs {
-  display: flex;
-  justify-content: center;
   margin: 30px 40px;
 }
 
 .text-paragraphs p {
   background: var(--secondary-color);
-  margin: 10px;
   line-height: 2;
+}
+
+.profile-pic {
+  width: 320px;
+  box-shadow: var(--box-shadow);
 }
 
 .contact-info {
@@ -141,7 +143,6 @@ p {
   margin: 30px 150px;
   line-height: 2;
   box-shadow: var(--box-shadow);
-  /* flex-grow: 1; */
 }
 
 .work-button {
@@ -243,6 +244,10 @@ p {
     background-color: var(--secondary-color) !important;
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(10px);
+  }
+
+  .profile-pic {
+    width: 200px;
   }
 
   .contact-links,
